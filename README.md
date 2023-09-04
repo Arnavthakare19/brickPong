@@ -1,7 +1,7 @@
-#Brick Breaker
+# Brick Breaker
 This is a simple brick breaker game written in Java. The game is played by using the mouse to move a paddle at the bottom of the screen. The player must hit the bricks with the paddle to break them. If all of the bricks are broken, the player wins.
 
-#How to Play
+# How to Play
 *Run the Main.java file.
 *Use the mouse to move the paddle at the bottom of the screen.
 *Hit the bricks with the paddle to break them.
@@ -10,11 +10,11 @@ Controls
 *Left click: Move the paddle left
 *Right click: Move the paddle right
 
-#License
+# License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
-##Code Explaination
-###Main.java
+## Code Explaination
+### Main.java
 The code is written in Java and it creates a simple brick breaker game. The code starts by importing the necessary libraries, namely `javax.swing`, `java.awt`, and `java.awt.event`.
 
 The next step is to create the `Main` class. This class contains the main method, which is where the game is executed. The main method first creates a `JFrame` object, which is the window that will be used to display the game. The `JFrame` object is then given a title, a size, and a visibility. It is also set to not be resizable.
@@ -66,7 +66,7 @@ obj.add(gamePlay);
 ```
 Adds the `GamePlay` object to the `JFrame` object. This will cause the `GamePlay` object to be displayed in the window.
 
-###MapCreator.java
+### MapCreator.java
 The code creates a class called `MapCreator`. This class is responsible for creating and drawing the bricks in a brick breaker game. The class has three public methods:
 
 * `MapCreator(int row, int col)`: Creates a new `MapCreator` object with the specified number of rows and columns.
@@ -77,7 +77,7 @@ The `MapCreator` class uses a two-dimensional array to store the bricks. The `ro
 
 The `MapCreator` class is a reusable class that can be used to create bricks in any brick breaker game.
 
-###Gameplay.java
+### Gameplay.java
  This class is responsible for the game logic of the brick breaker game. The class has following members:
 
 * `play`: A boolean variable that indicates whether the game is in play.
