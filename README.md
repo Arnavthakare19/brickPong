@@ -1,6 +1,9 @@
 # Brick Breaker
 This is a simple brick breaker game written in Java. The game is played by using the mouse to move a paddle at the bottom of the screen. The player must hit the bricks with the paddle to break them. If all of the bricks are broken, the player wins.
 
+# Gameplay
+![BrickPong GamePlay]([https://i.imgur.com/dQw4w9WgXcQ.gif](https://jmp.sh/s/8QQFTiglD9oMMEtoLm7p))
+
 # How to Play
 *Run the Main.java file.
 *Use the mouse to move the paddle at the bottom of the screen.
